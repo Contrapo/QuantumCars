@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+        <meta name="description" content="É uma loja de Carros."/>
+        <meta name="author" content="Felipe A., João Gabriel e Guilherme."/>
+        <title>Quantum Cars</title>
+        
+        <!-- Ícone da Página-->
+        <link rel="icon" type="image/x-icon" href="assets/car-front-fill.svg"/>
+        
+        <!-- Ícones do Bootstrap-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        
+        <!-- Estilo do Site-->
+        <link href="css/Mstyles.css" rel="stylesheet"/>
+
+    </head>
+    <body>
+        
+        <!-- Barra de Utilidades-->
+        <nav class="navbar navbar-expand-lg background-pattern-nav-bar">
+          <div class="container-fluid">
+            <div class="d-flex align-items-center">
+              <a class="navbar-brand text-" href="index.html"> <img src="Imagens/Quantum Cars Logo (Branco e Sem Data).png" width="180" height="75"> </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="search-box">
+               <div class="row-search">
+                <input class="text" id="input-box" autocomplete="off" placeholder="Procurar Carros..." aria-label="Search">
+                </div>
+               <div class="result-box"></div>
+             </div>
+          </div>
+            <div class="d-flex justify-content-end navbar-dark" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-lg-0">
+                  <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="index.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Carros
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="PromoIndex.html">Carros em Promoção</a></li>
+                        <li><a class="dropdown-item" href="POPIndex.html">Carros Populares</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="index.html">Todos os Carros</a></li>
+                      </ul>
+                    </li>
+                  <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="SobreNos.html">Sobre Nós</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Contato.html">Contato</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+      </nav>
+        
+        <!-- Widget do VLibras-->
+        <div vw class="enabled">
+            <div vw-access-button class="active"></div>
+            <div vw-plugin-wrapper>
+              <div class="vw-plugin-top-wrapper"></div>
+            </div>
+          </div>
+          <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+          <script>
+            new window.VLibras.Widget('https://vlibras.gov.br/app');
+          </script>
+          
+          <!-- Widget do WhatsApp-->
+          <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+          <div class="elfsight-app-f3a9f68e-1585-4131-82c2-705bd84eabf7" data-elfsight-app-lazy></div>
+
+        <!-- Seção do Produto-->
+        <section class="py-5">
+            <div class="container px-4 px-lg-5 my-5">
+                <div class="row gx-4 gx-lg-5 align-items-center">
+                    <div class="col-md-6"><img class="card-img-top mb-5 mb-md-0" src="Imagens/C12-Imagens/Carro12 - Grande.png" alt="..." /></div>
+                    <div class="col-md-6">
+                        <h1 class="display-5 fw-bolder">GM Caravan SS</h1>
+                        <div class="fw-normal">1978 / Laranja Boreal</div>
+                        <br>
+                        <h4 class="fw-bolder">Preço Estimado:</h4>
+                        <div class="fs-5 mb-5">
+                            <span class="text-decoration-line-through">R$50.000,00</span>
+                            <span>R$45.000,00</span>
+                        </div>
+                        <p class="lead">Caravan SS de chassi, originalmente 4 cil, porem hoje com motorização 6 cil devidamente cadastrada e regularizada, restauração a nivel de concurso, absolutamente impecável em todos os sentidos e detalhes, faróis G&E originais, lanternas originais, todos os vidros GM, interior absolutamente impecável, painel todo original com rádio AC Delco original, rodas magnum 500 com pneus BF, carro de concurso, para colecionadores.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Galeria-->
+        <div class="text-center">
+          <h1 class="display-5 fw-bolder">Galeria</h1>
+        </div>
+       <div class="container px-4 px-lg-5 my-5">
+        <div class="row gx-4 gx-lg-5 align-items-center">
+          <div class="col-md-6"><img class="card-img-top mb-5 mb-md-0" src="Imagens/C12-Imagens/Carro12 - Galeria 1.png" alt="Galeria 1" /></div>
+          <div class="col-md-6"><img class="card-img-top mb-5 mb-md-0" src="Imagens/C12-Imagens/Carro12 - Galeria 2.png" alt="Galeria 2" /></div>
+        </div>
+       </div>
+        
+        <!--Contato-->
+        <div class="text-center">
+            <h1 class="display-5 fw-bolder">Contate-nos</h1>
+        </div>
+        <br>
+        <div class="row justify-content-center">
+            <div class="col-lg-10">
+                <form class="row g-3">
+                    <div class="col-md-6">
+                      <label for="inputEmail" class="form-label">Email:</label>
+                      <input type="email" class="form-control" id="inputEmail">
+                    </div>
+                    <div class="col-md-6">
+                      <label for="inputName" class="form-label">Nome:</label>
+                      <input type="name" class="form-control" id="inputName">
+                    </div>
+                    <div class="col-12">
+                      <label for="inputAddress" class="form-label">Endereço:</label>
+                      <input type="text" class="form-control" id="inputAddress" placeholder="Bariro, Quadra e Etc...">
+                    </div>
+                    <div class="col-12">
+                      <label for="inputAddress2" class="form-label">Endereço 2:</label>
+                      <input type="text" class="form-control" id="inputAddress2" placeholder="Apartamento, Andar, Casa N°...">
+                    </div>
+                    <div class="col-md-6">
+                      <label for="inputCity" class="form-label">Cidade:</label>
+                      <input type="text" class="form-control" id="inputCity">
+                    </div>
+                    <div class="col-md-4">
+                      <label for="inputState" class="form-label">Estado:</label>
+                      <select id="inputState" class="form-select">
+                        <option value="AC">Acre</option>
+                        <option value="AL">Alagoas</option>
+                        <option value="AP">Amapá</option>
+                        <option value="AM">Amazonas</option>
+                        <option value="BA">Bahia</option>
+                        <option value="CE">Ceará</option>
+                        <option value="DF">Distrito Federal</option>
+                        <option value="ES">Espírito Santo</option>
+                        <option value="GO">Goiás</option>
+                        <option value="MA">Maranhão</option>
+                        <option value="MT">Mato Grosso</option>
+                        <option value="MS">Mato Grosso do Sul</option>
+                        <option value="MG">Minas Gerais</option>
+                        <option value="PA">Pará</option>
+                        <option value="PB">Paraíba</option>
+                        <option value="PR">Paraná</option>
+                        <option value="PE">Pernambuco</option>
+                        <option value="PI">Piauí</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="RN">Rio Grande do Norte</option>
+                        <option value="RS">Rio Grande do Sul</option>
+                        <option value="RO">Rondônia</option>
+                        <option value="RR">Roraima</option>
+                        <option value="SC">Santa Catarina</option>
+                        <option value="SP">São Paulo</option>
+                        <option value="SE">Sergipe</option>
+                        <option value="TO">Tocantins</option>
+                        <option value="EX">Estrangeiro</option>
+                      </select>
+                    </div>
+                    <div class="col-md-2">
+                      <label for="inputZip" class="form-label">CEP</label>
+                      <input type="text" class="form-control" id="inputZip">
+                    </div>
+                    <div class="col-12">
+                      <div>
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                      </div>
+                    </div>
+                  </form>
+            </div>
+        </div>
+        
+        <!-- Carros Relacionados-->
+        <section class="py-5 bg-light">
+            <div class="container px-4 px-lg-5 mt-5">
+                <h2 class="fw-bolder mb-4">Olhe mais Carros!</h2>
+                <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+                    
+                    <!-- Carro 1-->
+                    <div class="col mb-5">
+                      <div class="card h-100">
+                          <!-- Imagem do Carro-->
+                          <img class="card-img-top" src="Imagens/Carro1 - Pequeno.png" alt="Dodge Challenger Hardtop Coupé" />
+                          <!-- Detalhes do Carro-->
+                          <div class="card-body p-4">
+                              <div class="text-center">
+                                  <!-- Nome do Carro-->
+                                  <h5 class="fw-bolder">Dodge Challenger Hardtop Coupé</h5>
+                                  <!-- Descrição do Carro-->
+                                  <div>
+                                      <h6 class="fw-lighter">1973 / Light Green Metalic</h5>
+                                  </div>
+                                  <!-- Preço-->
+                                  <h6 class="fw-bolder">Preço Estimado</h6>
+                                  R$575.000,00
+                              </div>
+                          </div>
+                          <!-- Botão-->
+                          <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                              <div class="text-center"><a class="btn btn-outline-purple mt-auto" href="C1-index.html">Negociar</a></div>
+                          </div>
+                      </div>
+                  </div>
+                 
+                  <!-- Carro 2-->
+                      <div id="Dodge Challenger Hardtop Coupé" class="col mb-5">
+                          <div class="card h-100">
+                          <!-- Promoção-->
+                          <div class="badge promo-pop-up text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Promoção</div>
+                          <!-- Imagem do Carro-->
+                          <img class="card-img-top" src="Imagens/Carro2 - Pequeno.png" alt="Puma 1600 GTE" />
+                          <!-- Detalhes do Carro-->
+                          <div class="card-body p-4">
+                              <div class="text-center">
+                                  <!-- Nome do Carro-->
+                                  <h5 class="fw-bolder">Puma 1600 GTE</h5>
+                                  <!-- Descrição do Carro-->
+                                  <div>
+                                      <h6 class="fw-lighter">1979 / Branco</h6>
+                                  </div>
+                                  <div class="text-center">
+                                      <!-- Preço em Promoção-->
+                                      <h6 class="fw-bolder">Preço Estimado</h6>
+                                      <span class="text-muted text-decoration-line-through">R$125.000,00</span>
+                                      R$95.000,00
+                                  </div>
+                              </div>
+                          </div>
+                          <!-- Botão-->
+                          <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                              <div class="text-center"><a class="btn btn-outline-purple mt-auto" href="C2-index.html">Negociar</a></div>
+                          </div>
+                              </div>
+                          </div>
+
+                    <!-- Carro 5-->
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Imagem do Carro-->
+                            <img class="card-img-top" src="Imagens/Carro5 - Pequeno.png" alt="Porsche Chamonix 356 Speedster" />
+                            <!-- Detalhes do Carro-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <!-- Nome do Carro-->
+                                    <h5 class="fw-bolder">Porsche Chamonix 356 Speedster</h5>
+                                    <!-- Descrição do Carro-->
+                                    <div>
+                                        <h6 class="fw-lighter">2009 / Cinza Metálico</h5>
+                                    </div>
+                                    <!-- Preço-->
+                                    <h6 class="fw-bolder">Preço Estimado</h6>
+                                    R$255.000,00
+                                </div>
+                            </div>
+                            <!-- Botão-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-purple mt-auto" href="C5-index.html">Negociar</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Carro 15-->
+                    <div class="col mb-5">
+                      <div class="card h-100">
+                          <!-- Imagem do Carro-->
+                          <img class="card-img-top" src="Imagens/Carro15 - Pequeno.png" alt="Mercedes Benz E 240 Elegance" />
+                          <!-- Detalhes do Carro-->
+                          <div class="card-body p-4">
+                              <div class="text-center">
+                                  <!-- Nome do Carro-->
+                                  <h5 class="fw-bolder">Mercedes Benz E 240 Elegance</h5>
+                                  <!-- Descrição do Carro-->
+                                  <div>
+                                      <h6 class="fw-lighter">1999 / Prata</h5>
+                                  </div>
+                                  <!-- Preço-->
+                                  <h6 class="fw-bolder">Preço Estimado</h6>
+                                  R$95.000,00
+                              </div>
+                          </div>
+                          <!-- Botão-->
+                          <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                              <div class="text-center"><a class="btn btn-outline-purple mt-auto" href="C15-index.html">Negociar</a></div>
+                          </div>
+                      </div>
+                  </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Rodapé-->
+        <footer class="background-pattern-dark py-4 mt-auto">
+            <div class="container px-5">
+                <div class="row align-items-center justify-content-between flex-column flex-sm-row">
+                    <div class="col-auto"><div class="small m-0 text-white">Copyright &copy; Todos os Direitos Reservados. 2023</div></div>
+                    <div class="col-auto">
+                        <a class="link-light small" href="Termos de Privacidade.html">Políticas de Privacidade</a>
+                        <span class="text-white mx-1">&middot;</span>
+                        <a class="link-light small" href="Contato.html">Contato</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+       
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+       
+        <!-- Core do JS-->
+        <script src="js/Mscripts.js"></script>
+    </body>
+</html>
